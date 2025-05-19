@@ -1,44 +1,49 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Declara o tipo do documento HTML -->
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato - Portfólio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+    <title>Contato - Portfólio</title> <!-- Título da página -->
+    <link rel="stylesheet" href="style.css"> <!-- Importa o CSS externo -->
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Sobre Mim</a></li>
-        <li><a href="formacao.html">Formação</a></li>
-        <li><a href="portfolio.html">Portfólio</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <ul>
+                <!-- Menu de navegação -->
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section class="conteudo">
-      <h1>Contato</h1>
-      <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+    <main>
+        <section class="conteudo">
+            <h1>Contato</h1>
+            <form>
+                <!-- Campo para nome -->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
 
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                <!-- Campo para e-mail -->
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                <!-- Campo para mensagem -->
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
 
-        <button type="submit" disabled>Enviar</button>
-        <p class="info">*Este formulário é apenas visual e não envia mensagens.</p>
-      </form>
-    </section>
-  </main>
+                <!-- Botão desabilitado -->
+                <button type="submit" disabled>Enviar</button>
+                <p class="info">*Este formulário é apenas visual e não envia mensagens.</p>
+            </form>
+        </section>
+    </main>
 
-  <footer>
-    <p>&copy; 2025 - Desenvolvido por Gustavo Monteiro</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 - Desenvolvido por Gustavo Monteiro</p> <!-- Rodapé -->
+    </footer>
 </body>
 </html>
